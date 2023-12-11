@@ -1,0 +1,50 @@
+.basket {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.basketListName {
+  width: 85%;
+  height: 30px;
+  margin: auto;
+  padding-left: 10px;
+  background-color: rgb(210, 222, 255);
+  border-radius: 3px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.collapse {
+  width: 85%;
+  margin: auto;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 2s;
+  border-radius: 3px;
+  border: 1px solid black;
+  border-top: 0;
+  padding-left: 10px;
+}
+
+.show {
+  max-height: 500px;
+  border: 1px solid black;
+  border-top: 0;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+.basketName {
+  color: navy;
+  font-weight: bold;
+}
+
+.down-arrow {
+  width: 30px;
+  height: 30px;
+}
+
+.up-arrow {
+  width: 30px;
+  height: 30px;
+}

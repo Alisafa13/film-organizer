@@ -1,0 +1,64 @@
+.list {
+  margin-top: 20px;
+  margin-right: 40px;
+  border: 1px solid black;
+  height: 170px;
+  width: 300px;
+  padding: 20px;
+}
+
+.listInput {
+  width: 290px;
+  outline: none;
+}
+
+.listItems {
+  height: 100px;
+  overflow-y: auto;
+  margin-top: 10px;
+}
+
+.listItem {
+  display: flex;
+  justify-content: space-between;
+}
+
+.removeItem {
+  color: white;
+  background-color: red;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  border: 0;
+}
+
+.seems {
+  display: inline;
+  background: #496ddb;
+  color: white;
+  border: 0;
+  width: 110px;
+  height: 25px;
+  margin-bottom: 5px;
+}
+
+.hidden {
+  display: none;
+  background: #496ddb;
+  color: white;
+  border: 0;
+  width: 110px;
+  height: 25px;
+  margin-bottom: 5px;
+}
+
+.yourBasket {
+  background: #496ddb;
+  color: white;
+  border: 0;
+  width: 110px;
+  height: 25px;
+  margin-bottom: 5px;
+  margin-right: 10px;
+  margin-top: 10px;
+}

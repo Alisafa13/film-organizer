@@ -1,0 +1,43 @@
+img {
+  height: 150px;
+  width: 300px;
+}
+
+.searchAndMovies {
+  margin-left: 40px;
+}
+
+.movies {
+  border: 1px solid black;
+  width: 500px;
+  display: flex;
+  align-items: center;
+  padding-top: 5px;
+  padding-left: 30px;
+  padding-right: 80px;
+  background-color: #ffeedb;
+  margin-bottom: 10px;
+}
+
+.posterButton {
+  background: #496ddb;
+  color: white;
+  border: 0;
+  width: 110px;
+  height: 25px;
+  margin-bottom: 5px;
+}
+
+.poster {
+  margin-right: 20px;
+}
+
+.posterName {
+  margin-bottom: 10px;
+}
+
+.search {
+  width: 250px;
+  height: 20px;
+  outline: none;
+}
